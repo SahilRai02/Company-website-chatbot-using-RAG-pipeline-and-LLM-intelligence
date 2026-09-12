@@ -11,3 +11,4 @@ langchain-text-splitters
 pydantic
 jinja2
 python-multipart
+pytest
