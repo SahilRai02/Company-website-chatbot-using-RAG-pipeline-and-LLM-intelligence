@@ -1,0 +1,41 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Logs
+logs/
+*.log
+
+# Runtime cache
+data/cache/
+data/temp/
+
+# Generated RAG indexes
+data/chroma/
+data/bm25/
+
+# Local RAG knowledge documents
+data/uploaded_docs/*
+!data/uploaded_docs/
+!data/uploaded_docs/README.md
+
+# Local database
+*.db
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
